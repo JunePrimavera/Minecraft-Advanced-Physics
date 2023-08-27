@@ -1,4 +1,0 @@
-
-
-https://github.com/june/Minecraft-Advanced-Physics
-main,CLASS,xyz.sillyjune.advancedphysics.Minecraft_Advanced_Physics,net.fabricmc.api.ModInitializer;client,CLASS,xyz.sillyjune.advancedphysics.client.Minecraft_Advanced_PhysicsClient,net.fabricmc.api.ClientModInitializer

@@ -2,22 +2,26 @@
   "schemaVersion": 1,
   "id": "advanced-physics",
   "version": "${version}",
-
   "name": "Minecraft-Advanced-Physics",
   "description": "",
   "authors": [],
-  "contact": {},
-
+  "contact": {
+    "repo": "https://github.com/june/Minecraft-Advanced-Physics"
+  },
   "license": "MIT",
   "icon": "assets/advanced-physics/icon.png",
-
   "environment": "*",
-  "entrypoints": {},
-
-
+  "entrypoints": {
+    "client": [
+      "xyz.sillyjune.advancedphysics.client.AdvancedPhysicsClient"
+    ],
+    "main": [
+      "xyz.sillyjune.advancedphysics.AdvancedPhysics"
+    ]
+  },
   "depends": {
     "fabricloader": ">=${loader_version}",
-        "fabric": "*",
+    "fabric": "*",
     "minecraft": "${minecraft_version}"
   }
 }
