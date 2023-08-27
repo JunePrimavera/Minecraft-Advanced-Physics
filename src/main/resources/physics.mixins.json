@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "xyz.sillyjune.advancedphysics.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [],
+  "client": [
+    "PhysicsObjectTick"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -4,6 +4,7 @@ import com.mojang.blaze3d.systems.RenderSystem;
 import net.fabricmc.fabric.api.client.rendering.v1.WorldRenderEvents;
 import net.minecraft.client.render.*;
 import net.minecraft.client.util.math.MatrixStack;
+import net.minecraft.server.MinecraftServer;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.RotationAxis;
 import net.minecraft.util.math.Vec3d;
@@ -31,6 +32,11 @@ public class PhysicsObject {
         this.objectPosition = objectPosition;
         this.objectRotation = objectRotation;
     }
+
+    public void physicsTick(MinecraftServer server) {
+
+    }
+
 
 
 }
